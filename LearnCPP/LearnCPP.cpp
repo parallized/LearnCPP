@@ -2,11 +2,24 @@
 
 using namespace std;
 
-int a = 10;
+void outputPyramid(int n)
+{
+	for (int i = 0; i < n; i++)
+	{
+		for (int j = 0; j < n - i - 1; j++)
+		{
+			cout << " ";
+		}
+		for (int j = 0; j < 2 * i + 1; j++)
+		{
+			cout << "*";
+		}
+		cout << endl;
+	}
+}
 
 int main()
 {
-	cout << a;
-	a += 5;
-	printf("%d", a);
+	outputPyramid(5);
+	return 0;
 }
