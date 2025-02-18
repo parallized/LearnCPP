@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CalculatorMFC", "CalculatorMFC\CalculatorMFC.vcxproj", "{545D8354-3DB3-4DAC-8F27-390AF861E601}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Leetcode", "Leetcode\Leetcode.vcxproj", "{EA1641F3-39B8-4A39-A748-FACF4A66872A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{545D8354-3DB3-4DAC-8F27-390AF861E601}.Release|x64.Build.0 = Release|x64
 		{545D8354-3DB3-4DAC-8F27-390AF861E601}.Release|x86.ActiveCfg = Release|Win32
 		{545D8354-3DB3-4DAC-8F27-390AF861E601}.Release|x86.Build.0 = Release|Win32
+		{EA1641F3-39B8-4A39-A748-FACF4A66872A}.Debug|x64.ActiveCfg = Debug|x64
+		{EA1641F3-39B8-4A39-A748-FACF4A66872A}.Debug|x64.Build.0 = Debug|x64
+		{EA1641F3-39B8-4A39-A748-FACF4A66872A}.Debug|x86.ActiveCfg = Debug|Win32
+		{EA1641F3-39B8-4A39-A748-FACF4A66872A}.Debug|x86.Build.0 = Debug|Win32
+		{EA1641F3-39B8-4A39-A748-FACF4A66872A}.Release|x64.ActiveCfg = Release|x64
+		{EA1641F3-39B8-4A39-A748-FACF4A66872A}.Release|x64.Build.0 = Release|x64
+		{EA1641F3-39B8-4A39-A748-FACF4A66872A}.Release|x86.ActiveCfg = Release|Win32
+		{EA1641F3-39B8-4A39-A748-FACF4A66872A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
