@@ -1,9 +1,8 @@
-﻿#include <iostream>
-#include "453.cpp"
+﻿#include<stdio.h>
+#include<string>
 
-using namespace std;
 
 int main()
 {
-	Solution s;
+	return 0;
 }

@@ -1,25 +1,9 @@
-﻿#include <iostream>
-
-using namespace std;
-
-void outputPyramid(int n)
-{
-	for (int i = 0; i < n; i++)
-	{
-		for (int j = 0; j < n - i - 1; j++)
-		{
-			cout << " ";
-		}
-		for (int j = 0; j < 2 * i + 1; j++)
-		{
-			cout << "*";
-		}
-		cout << endl;
-	}
+﻿#include "MyLib.h"
+#include <Windows.h>
+void 打印数量(int a) {
+	cout << "数量: " << a << endl;
 }
 
-int main()
-{
-	outputPyramid(5);
-	return 0;
+int main() {
+	intptr_t 打印数量CALL = 打印数量;
 }
